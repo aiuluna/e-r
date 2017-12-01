@@ -1,0 +1,7 @@
+$vm_base: 640;
+@function vw($px) {
+  @return ($px / $vm_base) * 100vw;
+}
+$blue:#4c59fb;
+$borderColor:#a0a0a0;
+

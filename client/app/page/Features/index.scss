@@ -1,0 +1,27 @@
+@import "../../common/css/base";
+
+.features {
+  .q_3 {
+    width: vw(279);
+    position: absolute;
+    top: vw(768);
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .content {
+    color: #333333;
+    font-size: .24rem;
+    line-height: 2em;
+    padding: .4rem .65rem 1.16rem .65rem;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .title {
+    margin-top: .9rem;
+    margin-bottom: .69rem;
+    text-align: center;
+    width: 100%;
+    font-size: .32rem;
+    color: $blue;
+  }
+}

@@ -1,0 +1,66 @@
+@import "common/css/base";
+
+html {
+  font-size: 60px;
+  background-color: #ffffff;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+dd, dl, dt, li, ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.main {
+  margin-top: .88rem;
+  img {
+    width: 100%;
+  }
+}
+
+.footer {
+  font-size: .22rem;
+  color: #464343;
+  background-color: #f6f6f6;
+  .nav {
+    display: flex;
+    padding: 0 .4rem;
+    height: .62rem;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #d9d9d9;
+    border-width: 1px 0;
+    li {
+      height: .54rem;
+      line-height: .54rem;
+      a.active {
+        color: $blue;
+        //border-bottom: 1px solid $blue;
+      }
+    }
+
+  }
+  .info {
+    height: 1.24rem;
+    font-size: .16rem;
+    line-height: .34rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}

@@ -1,0 +1,6 @@
+/.git/
+/temps/
+/.idea/
+/node_modules/
+/config
+.DS_Store

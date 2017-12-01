@@ -1,0 +1,43 @@
+@import "../../common/css/base";
+
+.advantages {
+  .phone {
+    width: vw(279);
+    position: absolute;
+    top: vw(908);
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .content {
+    position: relative;
+    .title {
+      position: absolute;
+      left: vw(44);
+      top: vw(90);
+      font-size: .36rem;
+      color: $blue;
+      span {
+        font-weight: 800;
+      }
+    }
+    .line {
+      position: absolute;
+      height: vw(4);
+      width: .24rem;
+      left: vw(44);
+      top: vw(155);
+      background-color: $blue;
+    }
+    .info {
+      position: absolute;
+      left: vw(44);
+      right: vw(44);
+      top: vw(175);
+      line-height: 2em;
+      color: #333;
+      font-size: .24rem;
+
+    }
+  }
+}

@@ -1,0 +1,50 @@
+@import "../../common/css/base";
+
+.aboutUs {
+  font-size: .24rem;
+  line-height: 2em;
+  color: #464342;
+  .qualification {
+    padding: .42rem .64rem 1.02rem .64rem;
+    display: flex;
+    flex-direction: column;
+    color: #474342;
+    div {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      img {
+        margin-top: .12rem;
+        width: .24rem;
+        height: .24rem;
+      }
+      span {
+        margin-left: .22rem;
+      }
+    }
+
+
+  }
+  .btn_list {
+    display: flex;
+    text-align: center;
+    font-size: .3rem;
+    margin: vw(40) vw(49) vw(116) vw(49);
+    line-height: vw(76);
+    justify-content: space-between;
+    .btn_1 {
+      background-color: $blue;
+      color: #ffffff;
+      width: vw(258);
+      height: vw(76);
+      border-radius: vw(4);
+    }
+    .btn_2 {
+      border: 1px solid $blue;
+      color: $blue;
+      background-color: #ffffff;
+      border-radius: vw(4);
+      width: vw(258);
+    }
+  }
+}
